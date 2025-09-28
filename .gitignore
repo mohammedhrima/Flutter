@@ -1,0 +1,53 @@
+# -------------------------
+# Miscellaneous
+# -------------------------
+**/*.class
+**/*.log
+**/*.pyc
+**/*.swp
+**/.DS_Store
+**/.history
+**/.svn/
+**/.swiftpm/
+migrate_working_dir/
+
+# -------------------------
+# IDE specific
+# -------------------------
+# IntelliJ / Android Studio
+*.iml
+*.ipr
+*.iws
+.idea/
+
+# VS Code (optional, uncomment if you want to ignore)
+.vscode/
+
+# -------------------------
+# Flutter / Dart / Pub
+# -------------------------
+**/.dart_tool/
+**/.flutter-plugins-dependencies
+**/.pub-cache/
+**/.pub/
+**/build/
+**/coverage/
+**/doc/api/
+**/ios/Flutter/.last_build_id
+
+# Android build artifacts
+**/android/app/debug/
+**/android/app/profile/
+**/android/app/release/
+
+# iOS build artifacts
+**/ios/Pods/
+**/ios/Runner.xcworkspace/
+**/ios/Flutter/Flutter.framework
+**/ios/Flutter/Flutter.podspec
+
+# -------------------------
+# Symbolication / Obfuscation
+# -------------------------
+app.*.symbols
+app.*.map.json
