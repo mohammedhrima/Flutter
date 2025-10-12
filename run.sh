@@ -1,5 +1,9 @@
 open -a Simulator
 
+# to boot specific device when Simulator does weird behaviour
+#  xcrun simctl boot "iPhone 16 Pro"
+
+
 # list all devices
 # xcrun simctl list devices
 # choose wish device
